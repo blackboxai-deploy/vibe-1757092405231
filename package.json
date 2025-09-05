@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "SKIP_ENV_VALIDATION=true next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && SKIP_ENV_VALIDATION=true next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
